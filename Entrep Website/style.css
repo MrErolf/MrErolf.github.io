@@ -1,0 +1,205 @@
+/* Body */
+body {
+  background-color: #f4f4f9; 
+  color: #333333;
+}
+
+.info-box {
+  background-color: #f4f4f9;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.info-box strong {
+  color: #d77a61;
+}
+
+.content { 
+  padding: 30px;
+}
+
+selection .card {
+  max-width: 300px;
+  flex: 1 1 210px;
+  text-align: center;
+  height: 400px; /* Adjust height as necessary */
+  border: 1px solid lightgray;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+selection .card .imageFood {
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+selection .card .imageFood img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+selection .card .imageDrinks {
+  height: 70%; /* Adjust height as necessary */
+  margin-bottom: 20px;
+}
+
+selection .card .imageDrinks img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+selection .card .caption {
+  padding-left: 1em;
+  text-align: left;
+  line-height: 3em;
+  height: 25%;
+}
+
+main .card .caption p {
+  font-size: 1.5rem;
+}
+
+/* Navigator or Header */
+.header-color {
+  background-color: #fff6ef;
+}
+
+.btn-primary {
+  background-color: #d77a61;
+  border-color: #d77a61;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #f7b7a3;
+  border-color: #f7b7a3;
+}
+
+/* Footer */
+footer {
+  background-color: #d77a61;
+  color: #fff6ef;
+}
+
+/* Fonts */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.custom-color {
+  background-color: #d77a61;
+}
+
+.custom-fontcolor {
+  color: white;
+}
